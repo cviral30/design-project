@@ -1,0 +1,291 @@
+body {
+	margin: 0;
+}
+
+.clear {
+	clear: both;
+}
+#banner{
+	padding: 0 63px;
+	background: url('../img/shutterstock-130099706.png') no-repeat;
+    background-size: cover;
+    background-color: #2a2d35;
+}
+
+#banner .header {
+	padding-top: 51px;
+}
+
+#banner .header .logo-section {
+    display: inline-block;
+}
+
+#banner .header .chrome-widget {
+	display: inline-block;
+    float: right;
+}
+
+.banner-text {
+	padding-top: 128px;
+	width: 55%;
+    margin: 0 auto;
+}
+
+.banner-text .baner-title {
+	font-family: 'Montserrat';
+  	font-size: 40px;
+  	line-height: 50px;
+  	text-align: center;
+  	color: #FFF;
+}
+
+.banner-text .banner-content {
+	margin-top: 75px;
+}
+
+.banner-text .banner-content .banner-detail-description {
+	font-family: 'Lato';
+	font-size: 18px;
+	line-height: 26px;
+	color: #9f9f9f;
+    float: left;
+    width: 50%;
+}
+
+.banner-text .banner-content .call-to-action {
+	position: relative;
+	width: 50%;
+    float: left;
+    vertical-align: top;
+    top: 30px;
+    left: 30px;
+}
+
+.banner-text .banner-content .call-to-action a, .news-tracker .call-to-action a {
+	font-family: 'Montserrat';
+    font-size: 30px;
+    line-height: 50px;
+    padding: 25px 80px 25px 50px;
+    background: #ea7141;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 50px;
+    position: relative;
+}
+
+.banner-text .banner-content .call-to-action a:before , .news-tracker .call-to-action a:before{
+	position: absolute;
+	background: url('../img/rectangle-14.png') no-repeat;
+	content: "";
+	position: absolute;
+	right: 40px;
+	top: 32px;
+	width: 23px;
+	height: 22px;
+}
+
+.banner-categories {
+	padding-top: 150px;
+    padding-bottom: 80px;
+}
+
+.banner-categories ul {
+	padding-left: 60px;
+}
+
+.banner-categories ul li {
+    list-style: none;
+    display: inline-block;
+    width: 19%;
+}
+
+.banner-categories ul li .cat-image {
+	height: 35px;
+}
+
+.banner-categories ul li .cat-title {
+	color: #FFF;
+	font-family: 'Lato';
+	font-size: 18px;
+	line-height: 45px;
+}
+
+.about-section {
+    background: #f6f6f6;
+}
+.about-section  .about-content {
+	width: 80%;
+    margin: 0 auto;
+    padding: 75px 0;
+}
+.about-section .about-content-box {
+    width: 60%;
+    display: inline-block;
+    padding: 0 15px;
+    padding-top: 60px;
+    vertical-align: top;
+}
+
+.about-section .article-card-section {
+    display: inline-block;
+    width: 30%;
+    padding: 0 15px;
+}
+
+.about-section .about-content-box .about-content-title {
+	font-family: 'Montserrat';
+    font-size: 24px;
+    line-height: 32px;
+	font-weight: 700;
+	color: #000;
+	text-align: center;
+}
+.about-section .about-content-box .social-share {
+	text-align: center;
+}
+
+.about-section .about-content-box .about-content-description {
+	font-family: 'Lato';
+	font-size: 16px;
+	line-height: 24px;
+	color: #999999;
+	text-align: center;
+}
+
+.about-section .about-content-box .about-button a:before, .newsletter-button a:before {
+	position: absolute;
+	background: url('../img/rectangle-14-orange.png') no-repeat;
+	content: "";
+	position: absolute;
+    right: 24px;
+    top: 17px;
+	width: 23px;
+	height: 22px;
+}
+
+.about-section .about-content-box .about-button a , .newsletter-button a {
+	font-family: 'Montserrat';
+    font-size: 20px;
+    line-height: 33.5px;
+    padding: 13px 60px 13px 25px;
+    background: #FFF;
+    color: #ea7141;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 30px;
+    position: relative;
+    border: 1px solid #e5e5e5;
+}
+
+.about-section .about-content-box .about-button a:hover , .newsletter-button a:hover {
+	box-shadow: 7px 7px 0px #e5e5e5;
+}
+
+.about-section .about-content-box .about-button {
+    text-align: center;
+    padding-top: 35px;
+}
+
+.article-card-section .article-card {
+	text-align: center;
+    background: #FFF;
+    padding: 15px 0px;
+    cursor: pointer;
+}
+
+.article-card-section .article-card:hover {
+	box-shadow: 16px 16px 3px 0px #e5e5e5;
+}
+
+.newsletter {
+    padding: 75px 0px;
+}
+
+.newsletter .listing {
+    width: 930px;
+    margin: 0 auto;
+}
+
+.newsletter .listing ul {
+	padding-left: 0;
+}
+
+.newsletter .listing ul li {
+    padding: 0 15px;
+    list-style: none;
+    display: inline-block;
+    width: 46%;
+}
+
+.newsletter .listing ul li .newsletter-title {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.newsletter .listing ul li .newsletter-content {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 24px;
+    color: #999999;
+}
+
+.newsletter .newsletter-button {
+	padding-top: 35px;
+}
+
+.center {
+	text-align: center;
+}
+
+.news-tracker {
+	padding: 50px 0px 100px;
+}
+
+.news-tracker .title {
+	font-family: 'Montserrat';
+    font-size: 24px;
+    line-height: 32px;
+    color: #000;
+}
+
+.news-tracker .content {
+	font-family: 'Lato';
+	font-size: 18px;
+	line-height: 26px;
+	color: #999999;
+}
+
+.news-tracker .call-to-action {
+	padding-top: 25px;
+}
+
+footer {
+	border-top: 1px solid #33363e;
+}
+
+footer .footer-content {
+	padding: 30px 0px;
+}
+
+footer .actions a, footer .footer-policy {
+	font-family: 'Lato';
+	font-size: 12px;
+	line-height: 20px;
+	color: #33363e;
+	text-decoration: none;
+}
+
+footer .actions a.right-pipe {
+	padding-right: 10px;
+	border-right: 1px solid #33363e;
+}
+
+footer .actions a.padding-left-10 {
+	padding-left: 10px;
+}
+footer .footer-policy {
+	color: rgba(51, 54, 62, 0.8);
+}
